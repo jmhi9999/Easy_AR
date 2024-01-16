@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f0b625614a406468ee087f147489e7, type: 3}
+  m_Name: '[vehicle1p2]2c9beb17c4e94c34a87df0b3df84a557_1_1'
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: 11400000, guid: 2c9beb17c4e94c34a87df0b3df84a557, type: 2}
+  m_Scale: 1
+  m_CSF: 1
+  m_CurrentDataPath: Assets/BookResources/Q36_vehicle/1_cover/2dAni/
+  m_Data:
+  - m_SearchName: vehicle1p2
+    m_SharedTexture: {fileID: 2800000, guid: 17e775c9d6937924f9fcbc96b29bc254, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 0485020d1346f4b4bbedd5056f6558f9, type: 2}

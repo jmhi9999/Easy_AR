@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 7be73b16ae981014da01a649d8d492d2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: rocket all_control
+    100002: rocket1_smail control1
+    100004: rocket1_smail control2
+    100006: rocket1_smail control3
+    100008: rocket1_smail control4
+    100010: rocket2_control
+    100012: rocket3_control01
+    100014: rocket3_control02
+    100016: soyuz_rocket_01
+    100018: soyuz_rocket_02
+    100020: soyuz_rocket_03
+    100022: //RootNode
+    400000: rocket all_control
+    400002: rocket1_smail control1
+    400004: rocket1_smail control2
+    400006: rocket1_smail control3
+    400008: rocket1_smail control4
+    400010: rocket2_control
+    400012: rocket3_control01
+    400014: rocket3_control02
+    400016: soyuz_rocket_01
+    400018: soyuz_rocket_02
+    400020: soyuz_rocket_03
+    400022: //RootNode
+    2100000: soyuz_rocket
+    4300000: soyuz_rocket_03
+    4300002: soyuz_rocket_01
+    4300004: soyuz_rocket_02
+    7400000: soyuz_rocket_separation all
+    9500000: //RootNode
+    13700000: soyuz_rocket_01
+    13700002: soyuz_rocket_02
+    13700004: soyuz_rocket_03
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

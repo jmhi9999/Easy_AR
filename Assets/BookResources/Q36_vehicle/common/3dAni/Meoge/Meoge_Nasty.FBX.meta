@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 1cbd6691539e6884c9a7df63abb77673
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 L Calf
+    100004: Bip001 L Clavicle
+    100006: Bip001 L Foot
+    100008: Bip001 L Forearm
+    100010: Bip001 L Hand
+    100012: Bip001 L Thigh
+    100014: Bip001 L Toe0
+    100016: Bip001 L UpperArm
+    100018: Bip001 Neck
+    100020: Bip001 Pelvis
+    100022: Bip001 R Calf
+    100024: Bip001 R Clavicle
+    100026: Bip001 R Foot
+    100028: Bip001 R Forearm
+    100030: Bip001 R Hand
+    100032: Bip001 R Thigh
+    100034: Bip001 R Toe0
+    100036: Bip001 R UpperArm
+    100038: Bip001 Spine
+    100040: head001
+    100042: head002
+    100044: head003
+    100046: head004
+    100048: head005
+    100050: head006
+    100052: head007
+    100054: head008
+    100056: head009
+    100058: head010
+    100060: head011
+    100062: head012
+    100064: head013
+    100066: head014
+    100068: head015
+    100070: head016
+    100072: head017
+    100074: head018
+    100076: head019
+    100078: head020
+    100080: head021
+    100082: head022
+    100084: headline001
+    100086: L001
+    100088: L002
+    100090: L003
+    100092: L004
+    100094: L005
+    100096: L_EYE
+    100098: //RootNode
+    100100: Quiz_chr
+    100102: Quiz_chr_body
+    100104: R001
+    100106: R002
+    100108: R003
+    100110: R004
+    100112: R005
+    100114: R_EYE
+    400000: Bip001
+    400002: Bip001 L Calf
+    400004: Bip001 L Clavicle
+    400006: Bip001 L Foot
+    400008: Bip001 L Forearm
+    400010: Bip001 L Hand
+    400012: Bip001 L Thigh
+    400014: Bip001 L Toe0
+    400016: Bip001 L UpperArm
+    400018: Bip001 Neck
+    400020: Bip001 Pelvis
+    400022: Bip001 R Calf
+    400024: Bip001 R Clavicle
+    400026: Bip001 R Foot
+    400028: Bip001 R Forearm
+    400030: Bip001 R Hand
+    400032: Bip001 R Thigh
+    400034: Bip001 R Toe0
+    400036: Bip001 R UpperArm
+    400038: Bip001 Spine
+    400040: head001
+    400042: head002
+    400044: head003
+    400046: head004
+    400048: head005
+    400050: head006
+    400052: head007
+    400054: head008
+    400056: head009
+    400058: head010
+    400060: head011
+    400062: head012
+    400064: head013
+    400066: head014
+    400068: head015
+    400070: head016
+    400072: head017
+    400074: head018
+    400076: head019
+    400078: head020
+    400080: head021
+    400082: head022
+    400084: headline001
+    400086: L001
+    400088: L002
+    400090: L003
+    400092: L004
+    400094: L005
+    400096: L_EYE
+    400098: //RootNode
+    400100: Quiz_chr
+    400102: Quiz_chr_body
+    400104: R001
+    400106: R002
+    400108: R003
+    400110: R004
+    400112: R005
+    400114: R_EYE
+    2100000: Quiz_chr
+    4300000: Quiz_chr
+    4300002: Quiz_chr_body
+    7400000: Meoge_Nasty
+    9500000: //RootNode
+    13700000: Quiz_chr
+    13700002: Quiz_chr_body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

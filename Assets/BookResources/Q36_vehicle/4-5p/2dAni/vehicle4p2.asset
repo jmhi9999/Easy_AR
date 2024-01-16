@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1730d0b8751ac9e44b6303c6b7703fa7, type: 3}
+  m_Name: vehicle4p2
+  m_EditorClassIdentifier: 
+  rootClip: {fileID: 0}
+  m_EnableSequenceCaching: 0
+  m_AssetVersion: 4
+  m_ResourcesDirectory: GAF/Resources/Cache/
+  m_MecanimResourcesDirectory: BookResources/Q36_vehicle/4-5p/2dAni/vehicle4p2_animator/
+  m_AudioResourcesDirectory: BookResources/Q36_vehicle/4-5p/2dAni/
+  m_AssetData: 4341470005093b04000078da63640081067b4628cdc9c009a425fe034112d343465e060116b00c031b101b1be73b9d3d73c9d15898c16556e4436720ff10907f909187a1283fbf242433373527332f9583c18b116a2a8866e463284bcdc84cce49352930d22bc84b07c970404c6d00e303ca2e0c0c0e0e207106061e270686094e608d0cc88a18de3a3334ec7586289203d26ace20054c188ae0261902d9966045cca88a400aa08a1a5e024d3d0e56c482aa88c181a1e114c4ba8647405a1cac88158b755037e9036973b0223654454f9d191c385d208a64818a54c08ad831ade3862a7a0854240f56040e262e861028530026048e2548f870c103811bee531eb87778e16ee6833b8c1f6e3b0f833613441412de50df7132c000c835208cc46fb8efcc9030c3196a33230e65c69b5738cdda39d519ea2c265cca848f3aa7b94d7286ba9919973268c2837a08e4b535325258dc76dd296dd95c67886d10c358c08ee4c0edb1f57e727b40ec59910f601ee343f6d86488b26505f17b5efcacb74f733be69ca60676313f92c7f4a1cab43ae2f73c032a3b7b660d301d4fc3e53198a5677d1a601e13c0e2b1775d727bdefd019976dfe9acce6cd44087994820d0b12843043a2f52bac7159aacf0fc8f0a008aa5a1cb
+  m_GUID: 3fd7a9c601a323b48966d428522bce2f
+  m_Path: BookResources/Q36_vehicle/4-5p/2dAni/
+  m_IsExternalDataCollected: 1
+  m_ExternalData:
+  - m_TimelineID: 0
+    m_ObjectTypeFlags: 0000000000000000000000000000000000000000000000000000000000000000
+  m_HasNesting: 0
+  m_KeyFrames: []
+  m_AudioResources: []
+  m_AnimatorControllers:
+  - {fileID: 9100000, guid: 72bcfdb170ddef34191172cd3bcb976a, type: 2}

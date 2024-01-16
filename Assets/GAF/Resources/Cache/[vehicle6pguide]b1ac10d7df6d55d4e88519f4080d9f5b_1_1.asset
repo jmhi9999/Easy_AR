@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f0b625614a406468ee087f147489e7, type: 3}
+  m_Name: '[vehicle6pguide]b1ac10d7df6d55d4e88519f4080d9f5b_1_1'
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: 11400000, guid: b1ac10d7df6d55d4e88519f4080d9f5b, type: 2}
+  m_Scale: 1
+  m_CSF: 1
+  m_CurrentDataPath: Assets/BookResources/Q36_vehicle/6-7p/2dAni/
+  m_Data:
+  - m_SearchName: vehicle6pguide
+    m_SharedTexture: {fileID: 2800000, guid: 192df83aa3ec7ef49979b648abd08ab8, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 3c880dfa760d3eb4d93aaad864bb5b2a, type: 2}

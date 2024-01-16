@@ -1,0 +1,1391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1214583639912474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4949434800267106}
+  - component: {fileID: 23022000452920714}
+  - component: {fileID: 33289008055376094}
+  - component: {fileID: 114348279736509058}
+  - component: {fileID: 114042463861463420}
+  - component: {fileID: 95430723745671868}
+  - component: {fileID: 114717279182115678}
+  - component: {fileID: 114471040028711372}
+  m_Layer: 0
+  m_Name: vehicle24p1_baked_animator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949434800267106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23022000452920714
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e50677e45e41a524685e969b7ba74c6c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2100000, guid: e50677e45e41a524685e969b7ba74c6c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2100000, guid: e50677e45e41a524685e969b7ba74c6c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33289008055376094
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114348279736509058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1685943208, guid: 87e1447438e0963498777d84d12e3f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 114471040028711372}
+--- !u!114 &114042463861463420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3070aa36247534dbeb4772e4c9f6a20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovieClip: {fileID: 114471040028711372}
+  m_MeshManager: {fileID: 114348279736509058}
+  m_BakedObjects:
+  - m_Data:
+      m_Name: 31_88
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 88
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 31
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 102
+        y: 453
+        width: 86
+        height: 125
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 5_36
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 36
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 5
+      m_ObjectType: 0
+      m_BehaviourType: 2
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 2
+        y: 330
+        width: 98
+        height: 164
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 6_37
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 37
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 6
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 367
+        y: 534
+        width: 37
+        height: 29
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 30_87
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 87
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 30
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 275
+        y: 288
+        width: 99
+        height: 131
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 6_40
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 40
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 6
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 367
+        y: 534
+        width: 37
+        height: 29
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 89_90
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 90
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 89
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 271
+        height: 326
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 5_39
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 39
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 5
+      m_ObjectType: 0
+      m_BehaviourType: 2
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 2
+        y: 330
+        width: 98
+        height: 164
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 18_64_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 64
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 18
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 421
+        width: 87
+        height: 87
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 19_65_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 65
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 19
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 90
+        height: 93
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 19_66_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 66
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 19
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 90
+        height: 93
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 20_67_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 67
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 20
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 371
+        width: 92
+        height: 100
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 20_68_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 68
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 20
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 371
+        width: 92
+        height: 100
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 21_69_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 69
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 21
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 266
+        width: 93
+        height: 103
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 21_70_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 70
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 21
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 266
+        width: 93
+        height: 103
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 22_71_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 71
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 22
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 155
+        width: 95
+        height: 109
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 22_72_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 72
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 22
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 483
+        y: 155
+        width: 95
+        height: 109
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 23_73_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 73
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 23
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 376
+        y: 418
+        width: 97
+        height: 114
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 23_74_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 74
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 23
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 376
+        y: 418
+        width: 97
+        height: 114
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 24_75_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 75
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 24
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 102
+        y: 330
+        width: 98
+        height: 121
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 24_76_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 76
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 24
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 102
+        y: 330
+        width: 98
+        height: 121
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 25_77_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 77
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 25
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 155
+        width: 100
+        height: 127
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 25_78_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 78
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 25
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 155
+        width: 100
+        height: 127
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 26_79_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 79
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 26
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 284
+        width: 100
+        height: 132
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 26_80_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 80
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 26
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 284
+        width: 100
+        height: 132
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 27_81_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 81
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 27
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 275
+        y: 149
+        width: 104
+        height: 137
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 27_82_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 82
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 27
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 275
+        y: 149
+        width: 104
+        height: 137
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 28_83_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 83
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 28
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 104
+        height: 145
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 28_84_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 84
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 28
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 104
+        height: 145
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 29_85_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 85
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 29
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 2
+        width: 104
+        height: 151
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 29_86_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 86
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 29
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 381
+        y: 2
+        width: 104
+        height: 151
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 4_35_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 35
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 4
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 553
+        y: 116
+        width: 14
+        height: 12
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 4_38_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 38
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 4
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 553
+        y: 116
+        width: 14
+        height: 12
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 7_41_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 41
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 7
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 553
+        y: 97
+        width: 23
+        height: 17
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 7_42_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 42
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 7
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 553
+        y: 97
+        width: 23
+        height: 17
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 8_43_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 43
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 8
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 406
+        y: 534
+        width: 29
+        height: 22
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 8_44_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 44
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 8
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 406
+        y: 534
+        width: 29
+        height: 22
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 9_45_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 45
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 9
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 238
+        y: 510
+        width: 38
+        height: 28
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 9_46_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 46
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 9
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 238
+        y: 510
+        width: 38
+        height: 28
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 10_47_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 47
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 10
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 190
+        y: 510
+        width: 46
+        height: 34
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 10_48_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 48
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 10
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 190
+        y: 510
+        width: 46
+        height: 34
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 11_49_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 49
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 11
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 377
+        width: 54
+        height: 37
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 11_50_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 50
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 11
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 377
+        width: 54
+        height: 37
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 12_51_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 51
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 12
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 330
+        width: 57
+        height: 45
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 12_52_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 52
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 12
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 330
+        width: 57
+        height: 45
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 13_53_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 53
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 13
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 487
+        y: 97
+        width: 64
+        height: 54
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 13_54_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 54
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 13
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 487
+        y: 97
+        width: 64
+        height: 54
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 14_55_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 55
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 14
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 291
+        y: 505
+        width: 74
+        height: 62
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 14_56_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 56
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 14
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 291
+        y: 505
+        width: 74
+        height: 62
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 15_57_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 57
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 15
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 2
+        y: 496
+        width: 77
+        height: 72
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 15_58_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 58
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 15
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 2
+        y: 496
+        width: 77
+        height: 72
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 16_59_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 59
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 16
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 475
+        y: 473
+        width: 82
+        height: 76
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 16_60_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 60
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 16
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 475
+        y: 473
+        width: 82
+        height: 76
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 17_61_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 61
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 17
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 291
+        y: 421
+        width: 83
+        height: 82
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 17_62_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 62
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 17
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 291
+        y: 421
+        width: 83
+        height: 82
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 18_63_mask
+      m_Clip: {fileID: 114471040028711372}
+      m_Manager: {fileID: 114042463861463420}
+      m_ID: 63
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 18
+      m_ObjectType: 0
+      m_BehaviourType: 1
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 202
+        y: 421
+        width: 87
+        height: 87
+    m_Controller: {fileID: 0}
+--- !u!95 &95430723745671868
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 27e8f4d0ec8381c4f91fc6f55b12716b, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114717279182115678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -736414528, guid: 87e1447438e0963498777d84d12e3f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  m_Childs: []
+  m_LocalMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_IsLocalVisible: 1
+  m_RealVisibility: 0
+  m_StencilValue: 0
+  m_HasIndividualMaterial: 0
+--- !u!114 &114471040028711372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214583639912474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b100fd717b84300b040e4c76cff91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  m_GAFAsset: {fileID: 11400000, guid: 0bc110a37578a2a468628c04152cf1ca, type: 2}
+  m_IsInitialized: 1
+  m_TimelineID: 0
+  m_Settings:
+    m_FlipX: 0
+    m_Scale: 1
+    m_CSF: 1
+    m_PixelsPerUnit: 1
+    m_PlayAutomatically: 1
+    m_IgnoreTimeScale: 0
+    m_PerfectTiming: 1
+    m_PlayInBackground: 1
+    m_WrapMode: 1
+    m_TargetFPS: 24
+    m_SpriteLayerID: 0
+    m_SpriteLayerName: Default
+    m_SpriteLayerValue: 0
+    m_PivotOffset: {x: 0, y: 0}
+    m_HasIndividualMaterial: 0
+    m_AnimationColor: {r: 1, g: 1, b: 1, a: 1}
+    m_AnimationColorOffset: {x: 0, y: 0, z: 0, w: 0}
+    m_StencilValue: 0
+    m_ZLayerScale: 1
+    m_DecomposeFlashTransform: 0
+    m_UseLights: 0
+    m_CacheStates: 0
+  m_CurrentFrameNumber: 1
+  m_InternalFrameNumber: 1
+  m_IsActive: 1
+  m_FramesAudioData: []
+  m_UseCustomDelegate: 0
+  m_GetResourceDelegate:
+    m_Data:
+      m_Target: {fileID: 0}
+      m_TargetType: None
+      m_Method: None
+      m_ReturnType: System.Void
+      m_ArgumentTypes:
+      - System.Void
+    m_ReloadFunc: 0
+  m_UsePlaceholder: 0
+  m_PlaceholderMaterial: {fileID: 0}
+  m_PlaceholderSize: {x: 100, y: 100}
+  m_PlaceholderOffset: {x: 0, y: 0}
+  m_AnimatorVersion: 3
+  m_Animator: {fileID: 95430723745671868}
+  m_ObjectsManager: {fileID: 114042463861463420}

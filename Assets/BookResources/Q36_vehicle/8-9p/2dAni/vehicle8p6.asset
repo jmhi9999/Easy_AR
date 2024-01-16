@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1730d0b8751ac9e44b6303c6b7703fa7, type: 3}
+  m_Name: vehicle8p6
+  m_EditorClassIdentifier: 
+  rootClip: {fileID: 0}
+  m_EnableSequenceCaching: 0
+  m_AssetVersion: 4
+  m_ResourcesDirectory: GAF/Resources/Cache/
+  m_MecanimResourcesDirectory: BookResources/Q36_vehicle/8-9p/2dAni/vehicle8p6_animator/
+  m_AudioResourcesDirectory: BookResources/Q36_vehicle/8-9p/2dAni/
+  m_AssetData: 4341470005095a09000078da9d95bf8b134114c7df6e2ed98be6c76ae5a1c82116565a2c1c7689bbd7ada520162782241a899770886073b7585889950849250801c142b4b21222088227870a826073bdff82e77bf366677763e65d706198d9ec27df99f7d964c601ba9296a3fb2a54b13f7180d70bd773eb70a1aa9e40055b106c8441702a1caff8ebdd47bf22bc9fe2fdd4a9c1d66070ef4aef6ea7dfdbec2cc3c0d1a9d43b0db8dfb9ddbbd9ef5c1cae9d1f6edee27978426eed36247f22fa1c600bfbbd507d110ad0677ce0ad33f4300478aa20b700252fa32c29834a45e82b423f35f40aa18f0a5a2a4ef720979441e562d2c1dca40acc56a71a426d1f0bf81111e4317375badbfff4010708fce6a4e40bf6a092964169bf3ced4e52289d6e0f7b5f41cae511b8ae87be093f9626c0f114432e157bd4d8ab194575e3a1618a6d9a8a6a70d2e331bf1ece5691bae016b7ec3e081e87f0fc4da4e7732cd8783409836fef23bd18f770ac6ed63c67d2b71b91c61aa6a07f3168efa758d3542ba6f946c5bc4ae9cf712ed4debd39d88defdb06731732186b83896c306635e377b2c12266351873cd1ab31a8cd9a0c6ac068b695683716af0ac64f0f59d1d83951631e83c6383e36ba241c2949a91687006b319549352cd23d12061cae0483438936633c895929a55c960f6535d0d97948daa6cf0d23e1b0c02d12061a40612a3c6b5a561311a6b580c12466a34e65b0cf2daf850d2bb5c59ac5961b5dcb121bcdd666ebb17de4726ba88e5459795b48a2c3a19b2e8ddbe289a305a6577228a5669b84a8dd9441346a2356613cd6ba362ce48a29f9cde315865919affef88a80b47c4ccde5f3a7ceff7852322b7a9db6a5e696de73173fd0506f75b73
+  m_GUID: cc757411319e7324db2b9da842b944d4
+  m_Path: BookResources/Q36_vehicle/8-9p/2dAni/
+  m_IsExternalDataCollected: 1
+  m_ExternalData:
+  - m_TimelineID: 0
+    m_ObjectTypeFlags: 000000000000000000000000000000000000000000000000000000000000000000000000
+  m_HasNesting: 0
+  m_KeyFrames: []
+  m_AudioResources: []
+  m_AnimatorControllers:
+  - {fileID: 9100000, guid: 838ddb48d5ec6ef448413bea76a0cee7, type: 2}

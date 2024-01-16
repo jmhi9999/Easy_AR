@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1730d0b8751ac9e44b6303c6b7703fa7, type: 3}
+  m_Name: vehicle18pship
+  m_EditorClassIdentifier: 
+  rootClip: {fileID: 0}
+  m_EnableSequenceCaching: 0
+  m_AssetVersion: 4
+  m_ResourcesDirectory: GAF/Resources/Cache/
+  m_MecanimResourcesDirectory: BookResources/Q36_vehicle/18-19p/2dAni/vehicle18pship_animator/
+  m_AudioResourcesDirectory: BookResources/Q36_vehicle/18-19p/2dAni/
+  m_AssetData: 4341470005090001000078da63640081067b4628cdc9c009a425fe03811ad304465e86ab0c100052909636cdd1d8d8caf96c0c830bc381306720ff20907f989187a1283fbf242433373527332f9583c11b662a4817a31043596a4666724eaaa14541714666815e415e3acc4e981140a6030437d83334008d67087706c9b3830ce262e083ba800326c4c0c3600a1583608807c00a18a0b64330321f13000040de26c1
+  m_GUID: 551e410ac6417b04d8cd3cdad87892a5
+  m_Path: BookResources/Q36_vehicle/18-19p/2dAni/
+  m_IsExternalDataCollected: 1
+  m_ExternalData:
+  - m_TimelineID: 0
+    m_ObjectTypeFlags: 00000000
+  m_HasNesting: 0
+  m_KeyFrames: []
+  m_AudioResources: []
+  m_AnimatorControllers:
+  - {fileID: 9100000, guid: 6a8b0097e2d634340a7f4f0ec168b03c, type: 2}

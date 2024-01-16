@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1718176845744912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4686746662402264}
+  - component: {fileID: 23982283494856730}
+  - component: {fileID: 33349688967795708}
+  - component: {fileID: 114044953553980538}
+  - component: {fileID: 114884890739578858}
+  - component: {fileID: 95087218065650640}
+  - component: {fileID: 114018197838833702}
+  - component: {fileID: 114542174273564116}
+  m_Layer: 0
+  m_Name: vehicle1p1_baked_animator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4686746662402264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23982283494856730
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 09341d70b5fcf444b8e1a37f42e37a62, type: 2}
+  - {fileID: 2100000, guid: 09341d70b5fcf444b8e1a37f42e37a62, type: 2}
+  - {fileID: 2100000, guid: 09341d70b5fcf444b8e1a37f42e37a62, type: 2}
+  - {fileID: 2100000, guid: 09341d70b5fcf444b8e1a37f42e37a62, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33349688967795708
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114044953553980538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1685943208, guid: 87e1447438e0963498777d84d12e3f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 114542174273564116}
+--- !u!114 &114884890739578858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3070aa36247534dbeb4772e4c9f6a20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovieClip: {fileID: 114542174273564116}
+  m_MeshManager: {fileID: 114044953553980538}
+  m_BakedObjects:
+  - m_Data:
+      m_Name: 4_8
+      m_Clip: {fileID: 114542174273564116}
+      m_Manager: {fileID: 114884890739578858}
+      m_ID: 8
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 4
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 79
+        height: 130
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 1_5
+      m_Clip: {fileID: 114542174273564116}
+      m_Manager: {fileID: 114884890739578858}
+      m_ID: 5
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 1
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 88
+        height: 76
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 2_6
+      m_Clip: {fileID: 114542174273564116}
+      m_Manager: {fileID: 114884890739578858}
+      m_ID: 6
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 2
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 95
+        y: 137
+        width: 58
+        height: 61
+    m_Controller: {fileID: 0}
+  - m_Data:
+      m_Name: 3_7
+      m_Clip: {fileID: 114542174273564116}
+      m_Manager: {fileID: 114884890739578858}
+      m_ID: 7
+      m_AtlasCustomElementID: -1
+      m_AtlasInitialElementID: 3
+      m_ObjectType: 0
+      m_BehaviourType: 0
+      m_IsVisible: 1
+      m_Offset: {x: 0, y: 0}
+      m_MeshSizeMultiplier: {x: 1, y: 1}
+      m_Material: {fileID: 0}
+      m_UseCustomAtlasTextureRect: 0
+      m_AtlasTextureRect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 143
+        height: 94
+    m_Controller: {fileID: 0}
+--- !u!95 &95087218065650640
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a64db3d9c3120c4e979b2f772b63f5a, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114018197838833702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -736414528, guid: 87e1447438e0963498777d84d12e3f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  m_Childs: []
+  m_LocalMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_IsLocalVisible: 1
+  m_RealVisibility: 0
+  m_StencilValue: 0
+  m_HasIndividualMaterial: 0
+--- !u!114 &114542174273564116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718176845744912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b100fd717b84300b040e4c76cff91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  m_GAFAsset: {fileID: 11400000, guid: c6616c1e7528e2c44b2bd46364e1abea, type: 2}
+  m_IsInitialized: 1
+  m_TimelineID: 0
+  m_Settings:
+    m_FlipX: 0
+    m_Scale: 1
+    m_CSF: 1
+    m_PixelsPerUnit: 1
+    m_PlayAutomatically: 1
+    m_IgnoreTimeScale: 0
+    m_PerfectTiming: 1
+    m_PlayInBackground: 1
+    m_WrapMode: 1
+    m_TargetFPS: 24
+    m_SpriteLayerID: 0
+    m_SpriteLayerName: Default
+    m_SpriteLayerValue: 0
+    m_PivotOffset: {x: 0, y: 0}
+    m_HasIndividualMaterial: 0
+    m_AnimationColor: {r: 1, g: 1, b: 1, a: 1}
+    m_AnimationColorOffset: {x: 0, y: 0, z: 0, w: 0}
+    m_StencilValue: 0
+    m_ZLayerScale: 1
+    m_DecomposeFlashTransform: 0
+    m_UseLights: 0
+    m_CacheStates: 0
+  m_CurrentFrameNumber: 1
+  m_InternalFrameNumber: 1
+  m_IsActive: 1
+  m_FramesAudioData: []
+  m_UseCustomDelegate: 0
+  m_GetResourceDelegate:
+    m_Data:
+      m_Target: {fileID: 0}
+      m_TargetType: None
+      m_Method: None
+      m_ReturnType: System.Void
+      m_ArgumentTypes:
+      - System.Void
+    m_ReloadFunc: 0
+  m_UsePlaceholder: 0
+  m_PlaceholderMaterial: {fileID: 0}
+  m_PlaceholderSize: {x: 100, y: 100}
+  m_PlaceholderOffset: {x: 0, y: 0}
+  m_AnimatorVersion: 3
+  m_Animator: {fileID: 95087218065650640}
+  m_ObjectsManager: {fileID: 114884890739578858}

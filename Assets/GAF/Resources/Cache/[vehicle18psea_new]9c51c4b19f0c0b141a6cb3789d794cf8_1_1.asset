@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f0b625614a406468ee087f147489e7, type: 3}
+  m_Name: '[vehicle18psea_new]9c51c4b19f0c0b141a6cb3789d794cf8_1_1'
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: 11400000, guid: 9c51c4b19f0c0b141a6cb3789d794cf8, type: 2}
+  m_Scale: 1
+  m_CSF: 1
+  m_CurrentDataPath: Assets/BookResources/Q36_vehicle/18-19p/2dAni_new/
+  m_Data:
+  - m_SearchName: vehicle18psea_new
+    m_SharedTexture: {fileID: 2800000, guid: c9682c85a616db4498194160fb042b12, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 33066856f48fb084a9508c0beb15d545, type: 2}
+  - m_SearchName: vehicle18psea_new_2
+    m_SharedTexture: {fileID: 2800000, guid: 83fe04d0ae797694eb8e89d76d9dbbae, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: be43b76126d30ad469e144432b72cd3a, type: 2}
+  - m_SearchName: vehicle18psea_new_3
+    m_SharedTexture: {fileID: 2800000, guid: e05517bfc8e974347b61d73f0e0d083a, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 68583116a431b3a48a3383c093708927, type: 2}
+  - m_SearchName: vehicle18psea_new_4
+    m_SharedTexture: {fileID: 2800000, guid: 23f9ab8c3de7cfb48918c96f25c784b4, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 8d15a8ac21c8b544db3235dda0433c69, type: 2}
+  - m_SearchName: vehicle18psea_new_5
+    m_SharedTexture: {fileID: 2800000, guid: 8315a6a3aa4fbd544ab30e9e877c41e5, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 96c357a2a07ae6c46b268b66e7a9a29a, type: 2}
+  - m_SearchName: vehicle18psea_new_6
+    m_SharedTexture: {fileID: 2800000, guid: 1c3db777b7db9254db42c69bf1c058a1, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: c6f206d896fd8db4a8f4eaff30e86599, type: 2}
+  - m_SearchName: vehicle18psea_new_7
+    m_SharedTexture: {fileID: 2800000, guid: 531433e6918fbfe43bd80ee18e7c1ccb, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: ea7112ecc2b8a84438ae24f81c6f8ea4, type: 2}
+  - m_SearchName: vehicle18psea_new_8
+    m_SharedTexture: {fileID: 2800000, guid: 16102062396608a44b82fb0f18e29a16, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: 0204f36967d6b2e42b7ec2eee7c8a893, type: 2}
+  - m_SearchName: vehicle18psea_new_9
+    m_SharedTexture: {fileID: 2800000, guid: 835e176babb5466459b0b1cbc6b1f1cb, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: ea070f07ca2ea1a458e46d0797cd5cd6, type: 2}
+  - m_SearchName: vehicle18psea_new_10
+    m_SharedTexture: {fileID: 2800000, guid: 3440410b41e473a47ad321f9248ddf88, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: fee2d5c3c2aa4f546928fe38f22a4c04, type: 2}
+  - m_SearchName: vehicle18psea_new_11
+    m_SharedTexture: {fileID: 2800000, guid: 657db3b762416b14cb6466626943247c, type: 3}
+    m_SharedMaterial: {fileID: 2100000, guid: eec675b320901b643a832bd1a29e6411, type: 2}
